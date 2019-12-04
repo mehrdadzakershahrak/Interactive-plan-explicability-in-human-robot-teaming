@@ -1,0 +1,9 @@
+java -cp "class/:lib/mallet-deps.jar" cc.mallet.fst.SimpleTagger --train true --model-file nouncrf  sample.txt
+
+java -cp "class/:lib/mallet-deps.jar" cc.mallet.fst.SimpleTagger --model-file nouncrf  stest.txt
+
+================================================================================
+# On my samples
+java -cp "class/:lib/mallet-deps.jar" cc.mallet.fst.SimpleTagger --train true --model-file crfmodel game1
+
+java -cp "class/:lib/mallet-deps.jar" cc.mallet.fst.SimpleTagger --model-file crfmodel game1_test_Target

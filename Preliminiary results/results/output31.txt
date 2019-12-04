@@ -1,0 +1,26 @@
+Parsed Domain file rover-domain-modified.pddl successfully
+Parsed Problem file Rover-domain/output31.pddl successfully
+Performing search as in FF - first considering EHC with only helpful actions
+12
+9
+8
+7
+6
+5
+4
+3
+2
+1
+(move rover1 loc19 loc14)
+(visit-room rover1 room14 loc14 dummy-room)
+(move rover1 loc14 loc15)
+(visit-room rover1 room15 loc15 room14)
+(move rover1 loc15 loc14)
+(move rover1 loc14 loc13)
+(visit-room rover1 room13 loc13 room15)
+(move rover1 loc13 loc12)
+(move rover1 loc12 loc11)
+(move rover1 loc11 loc6)
+(visit-room rover1 room6 loc6 room13)
+Instantiation Time =		0.064sec
+Planning Time =	0.066sec

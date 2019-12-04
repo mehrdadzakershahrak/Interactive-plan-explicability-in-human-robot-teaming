@@ -1,0 +1,34 @@
+set-to-visit room2 dummy-room
+set-to-visit room3 dummy-room
+set-to-visit room1 dummy-room
+set-to-visit room4 dummy-room
+move rover1 loc36 loc30
+move rover1 loc30 loc24
+remove-obstacle rover1 obstacle2 loc24 loc18
+move rover1 loc24 loc18
+move rover1 loc18 loc12
+move rover1 loc12 loc6
+remove-obstacle rover1 obstacle1 loc6 loc5
+move rover1 loc6 loc5
+move rover1 loc5 loc4
+move rover1 loc4 loc3
+move rover1 loc3 loc9
+move rover1 loc9 loc15
+move rover1 loc15 loc9
+move rover1 loc9 loc3
+visit-room rover1 room1 loc3
+move rover1 loc3 loc9
+move rover1 loc9 loc15
+move rover1 loc15 loc21
+move rover1 loc21 loc20
+move rover1 loc20 loc19
+move rover1 loc19 loc13
+visit-room rover1 room2 loc13
+move rover1 loc13 loc19
+move rover1 loc19 loc20
+move rover1 loc20 loc26
+move rover1 loc26 loc32
+visit-room rover1 room3 loc32
+move rover1 loc32 loc33
+move rover1 loc33 loc34
+visit-room rover1 room4 loc34

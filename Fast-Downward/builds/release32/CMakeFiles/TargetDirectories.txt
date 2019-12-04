@@ -1,0 +1,6 @@
+/Users/mehrdad/Downloads/Fast-Downward-00c35334a7b0/builds/release32/CMakeFiles/rebuild_cache.dir
+/Users/mehrdad/Downloads/Fast-Downward-00c35334a7b0/builds/release32/CMakeFiles/edit_cache.dir
+/Users/mehrdad/Downloads/Fast-Downward-00c35334a7b0/builds/release32/CMakeFiles/translate.dir
+/Users/mehrdad/Downloads/Fast-Downward-00c35334a7b0/builds/release32/search/CMakeFiles/rebuild_cache.dir
+/Users/mehrdad/Downloads/Fast-Downward-00c35334a7b0/builds/release32/search/CMakeFiles/edit_cache.dir
+/Users/mehrdad/Downloads/Fast-Downward-00c35334a7b0/builds/release32/search/CMakeFiles/downward.dir

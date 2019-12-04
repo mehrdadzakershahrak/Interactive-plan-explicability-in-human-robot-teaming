@@ -1,0 +1,13 @@
+mkdir results
+
+===================================
+##FD
+for i in {1..100}; do ./fast-downward.py test/domain.pddl test/output$i.pddl --search "astar(lmcut())" > ../results/output$i.txt; done
+
+
+#inside results
+for i in {1..100}; do tail -n 40 output$i.txt > out$i.txt; done
+
+===================================
+##FF
+for i in {1..100};do java -cp . javaff.JavaFF rover-domain-modified.pddl output$i.pddl > ../results/output$i.txt; done

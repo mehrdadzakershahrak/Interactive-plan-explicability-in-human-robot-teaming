@@ -1,0 +1,1 @@
+java -cp . javaff.JavaFF blocksworld-domain.pddl blocksworld-prob1.pddl
